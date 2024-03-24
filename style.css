@@ -90,7 +90,7 @@ footer{
 
 .btn-main{
 	font: 300 50px Gilroy;
-	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 26) + 26px);
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 32) + 32px);
 	color: black;
 	text-align: center;
    	margin-top:0;
