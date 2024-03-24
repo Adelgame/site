@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Культурный код</title>
+		<link rel="shortcut icon" href="resources\img\main\icon.png" type="image/x-icon">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="adaptive.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		
+		<header>
+			<div class="btn">
+				<div class="btn-box"><h1 class="btn-main"><a href="main.html" class="btn-a">КУЛЬТУРНЫЙ КОД</a></h1></div>
+				<nav>
+					<a href='posts.html' class='btn-head'>афиша</a>
+					<a href='map.html' class='btn-head'>карта</a>
+					<a href='locations.html' class='btn-head'>локации</a>
+				</nav>	
+			</div>
+		</header>
+		<main>
+			<div class="slider-banner" >
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+					<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="resources\img\main\01.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="resources\img\main\02.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="resources\img\main\03.jpg" class="d-block w-100" alt="...">
+					</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+					<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+					<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+      			<p class='slider-text'>Культурный код Московского Политеха - это сервис с информацией о культурных местах Москвы. </p>
+			</div>	
+
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="flush-headingOne">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					  О нас
+					</button>
+				  </h2>
+				  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">Мы рассказываем, как культурно провести время студентам около корпусов Московского Политеха. Кроме того, мы создаем ежемесячную афишу, и ведем телеграм-канал, где чаще публикуем контент и общаемся с аудиторией</div>
+				  </div>
+				</div>
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="flush-headingTwo">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+					  Новости
+					</button>
+				  </h2>
+				  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">Тут мы будем публиковать новости нашего проекта</div>
+				  </div>
+				</div>
+				<div class="accordion-item">
+				  <h2 class="accordion-header" id="flush-headingThree">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					  Партнерам
+					</button>
+				  </h2>
+				  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">Мы готовы к сотрудничеству, поэтому, если вы хотите, чтобы мы рассказали о вашем культурном мероприятии или хотите предложить коллаборацию, напишите сюда</div>
+				  </div>
+				</div>
+			  </div>
+		</main>
+
+		<a href='locations.html' class='btn-bottom'>Поехали!</a>
+
+		<footer>
+			<p class="footer_info">Культурный код Московского Политеха</p>
+		</footer>
+
+		<div class="telegram">
+			<a href="https://t.me/culturnyicode">
+				<svg width="137" height="137" viewBox="0 0 137 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<circle cx="68.5" cy="68.5" r="68.5" fill="white"/>
+					<path d="M68.5 5C33.4193 5 5 33.4234 5 68.5C5 103.577 33.4234 132 68.5 132C103.581 132 132 103.577 132 68.5C132 33.4234 103.577 5 68.5 5ZM99.6887 48.5036L89.2665 97.6158C88.4964 101.098 86.4234 101.942 83.5311 100.303L67.6561 88.6029L59.9992 95.9771C59.1553 96.821 58.4383 97.5379 56.7996 97.5379L57.9262 81.3803L87.3452 54.8004C88.6275 53.6738 87.0625 53.0347 85.3705 54.1613L49.0116 77.05L33.3415 72.1584C29.9371 71.0851 29.8592 68.754 34.0584 67.1153L95.2806 43.5056C98.1238 42.4814 100.606 44.1979 99.6846 48.4995L99.6887 48.5036Z" fill="#4E6D2B"/>
+				</svg>
+			</a>		
+		</div>
+
+		<div class="toast-container position-fixed bottom-0">
+			<div class="toast" data-bs-autohide="false">
+				<div class="toast-header">
+					<img src="resources\img\main\cat-icon.png" width="30" class="rounded me-2" alt="...">
+					<strong class="me-auto">Культурный Кот</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+				</div>
+				<div class="toast-body">
+					Привет! Я проведу тебе экскурсию по сайту! В разделе "карта" наглядная схема расположения культурных мест относительно корпусов Московского Политеха. В разделе "локации" список всех культурных мест и их описание. В разделе "афиша" культурная программа с предстоящими  мероприятиями
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="main.js"></script>
+
+	</body>
+</html>

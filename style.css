@@ -1,0 +1,414 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.btn{
+	width: 749px;
+}
+
+nav{
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 2vw;
+}
+
+.telegram{
+	position: fixed;
+	bottom: 13px;
+	right: 25px;
+	z-index: 100;
+}
+
+.telegram svg{
+	height: 90px;
+}
+
+.telegram svg circle{
+	transition: fill 0.07s ease-in-out;
+  }
+  
+.telegram svg path{
+	transition: fill 0.07s ease-in-out;
+  }
+
+.telegram:hover svg circle{
+	fill: #4E6D2B;
+  }
+  
+  .telegram:hover svg path{
+	fill: white;
+  }
+  
+
+
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: 4vw;
+	margin-bottom: 4vw;
+}
+
+.footer_info{
+	font: 300 50px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (24 - 14) + 14px);
+	text-align: center;
+}
+
+.btn-box{
+	width: 749px;
+	margin-top:20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+ }
+
+ .btn-box:before{
+	content:'';
+	display:block;
+	width:100%;
+	height:2.5px;
+	background-color:#000;
+	position: absolute;
+	top:30px;
+ }
+
+.btn-main{
+	font: 300 50px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 40) + 40px);
+	color: black;
+	text-align: center;
+   	margin-top:0;
+	position: absolute;
+	background-color:#fff;
+   	padding:0 20px;
+	
+}
+
+
+.btn-a{
+	text-decoration: none;
+	color: black;
+	transition: color 0.1s ease-in-out;
+}
+
+.btn-a:hover{
+	color:#4E6D2B;
+}
+
+.btn-head {
+    width: 199px;
+    height: 47px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #4E6D2B;
+    border-radius: 60px;
+    font: 300 24px/1.9 Gilroy;
+    position: relative;
+    outline: none;
+	transition: color 0.07s ease-in-out;
+	transition: background-color 0.07s ease-in-out;
+}
+
+.btn-head:hover {
+    box-sizing: border-box;
+    text-align: center;
+    color: #4E6D2B;
+    text-decoration: none;
+    background-color: #fff;
+    position: relative;
+    outline: none;
+}
+
+/*map.html*/
+
+.main-map{
+	width: 83%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*main.html*/
+.accordion{
+	width: 83%;
+	margin: 0 auto;
+	margin-top: 1vw;
+}
+
+.accordion-button{
+	font: 300 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (30 - 20) + 20px);
+}
+
+.btn-bottom{
+	font: 300 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (30 - 20) + 20px);
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	padding: 7px 4vw;
+	width:max-content;
+	color: #fff;
+	background-color: #4E6D2B;
+	border-radius: 60px;
+	transition: color 0.07s ease-in-out;
+	transition: background-color 0.07s ease-in-out;
+}
+
+.btn-bottom:hover{
+	color: #4E6D2B;
+	background-color: #fff;
+}
+
+.toast-container{
+	z-index: 100;
+	position: fixed;
+	bottom:2;
+	width: 100%;
+	margin:0;
+}
+
+.toast{
+	left:0;
+	width: 80%;
+	margin-left: 7.5%;
+}
+
+.toast-header{
+	color: #4E6D2B;
+	font: 300 24px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (24 - 14) + 14px);
+	background-color:#C4BAA1;
+
+}
+
+.toast-body{
+	font: 300 20px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (20 - 14) + 14px);
+	color:black;
+}
+
+/*location.html*/
+
+.buildings-cards{
+	margin-top: 83px;
+}
+
+.buildings-card {
+	text-align: center;
+	position: relative;
+	height: 27vw;
+	margin-bottom:80px;
+}
+
+.buildings-card svg{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	width: 66%;
+}
+
+
+.small-building-card{
+	height: 24vw;
+}
+
+/*bolshaya_s.himl avtas.html pryaniki.html*/
+
+.h1-location {
+	font: 900 60px Gilroy;
+	width: 1196px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1vw;
+	margin-bottom: 4vw;
+	text-align: center;
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1196px;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.card-img{
+	width: 345px;
+
+}
+
+.card{
+	margin-bottom: 84px;
+	width: 345px;
+	height: 345px;
+	overflow: hidden;
+	transition: all .1s ease;
+	
+	position: relative;
+}
+
+.card:hover{
+	transform: scale(.95);
+}
+
+.card:hover .card-content {
+    position: absolute;
+    bottom: 0;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	opacity: 1;
+	
+}
+
+.card-content {
+	opacity: 0;
+	transition: all .1s ease;
+	font: 900 34px Gilroy;
+	color:white;
+	padding: 1.4rem;
+	text-align: center;
+	z-index:30;
+}
+
+.card:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #00000083;
+	z-index:20;
+	display: none;
+}
+
+.card:hover::after{
+	display: block;
+}
+
+/*slider banner*/
+
+.slider-banner{
+	width: 83%;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.slider-banner .carousel-item{
+	max-height: 33vw;
+}
+
+.slider-banner .carousel-item img{
+	object-fit: cover;
+}
+
+.slider-text{
+	position: absolute;
+	width:100%;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font: 300 40px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (40 - 20) + 20px);
+	z-index:1;
+	color: white;
+	text-align:center;
+	background-color: #00000090;
+	padding: 2vw;
+  }
+
+.accordion-body{
+	font: 300 24px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (24 - 14) + 14px);
+}
+
+.h1-place-name{
+	font: 900 50px Gilroy;
+	width: 81vw;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 24) + 24px);
+	margin-bottom: 3vw ;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-place {
+	font: 300 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (26 - 16) + 16px);
+	margin-top: 4vw;
+}
+
+.place-text {
+	margin-bottom: 3vw;
+}
+
+.strong-place {
+	font: 900 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (26 - 16) + 16px);
+}
+
+.mape-place-frame{
+	margin: 4vw auto;
+}
+
+/*posts.html*/
+
+.posts {
+	width: 83%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 5.7vw;
+}
+
+.posts-frame {
+	margin-bottom: 5.7vw;
+	width: 29%;
+	transition: all .1s ease;
+	position: relative;
+	margin-left: 6.5%;
+}
+
+.posts-cover {
+	width: 100%;
+
+}
+
+
+.posts-frame:hover{
+	transform: scale(.95);
+}
+
+.posts-frame:nth-of-type(3n+1){
+	margin-left: 0;
+}
